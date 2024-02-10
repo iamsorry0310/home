@@ -1,0 +1,97 @@
+*{
+    background: #0F1820;
+    font-family: monaco;
+}
+
+.hi{
+    font-size: 2rem;
+}
+.name{
+    font-size: 4rem;
+    color: #4070F4;
+}
+
+.autoType{
+    color: aqua;
+    font-size: 3rem;
+}
+
+.card-title{
+    color: aqua;
+}
+
+.rounded-circle-border{
+    border: 5px solid aqua;
+}
+
+.card-img-top{
+    resize: 50%;
+}
+
+.digital-clock{
+    background-color:#0F1820;
+      color: aqua;
+}
+.digital-clock {
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 4em;
+      font-weight: bold;
+      text-align: center;
+      margin-top: 50px;
+    }
+
+    @media (max-width: 576px) {
+      .digital-clock {
+        font-size: 2.5em;
+      }
+    }
+
+.gmail{
+    text-decoration: none;
+}
+
+.card-container{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+    /* Styling for PDF viewer */
+    #pdf-container {
+        width: 80%;
+        height: 50%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: rgba(0, 0, 0, 0.8);
+        z-index: 9999;
+        display: none;
+      }
+  
+      #pdf-viewer {
+        width: 95%;
+        height: 90%;
+        margin: 10% auto;
+        background-color: #fff;
+      }
+  
+      #close-btn {
+        position: absolute;
+        background-color: #fff;
+        color: red;
+        top: 21%;
+        right: 3%;
+        width:9% ;
+        height: 12%;
+      }
+  
+      /* Styling for buttons */
+      .pdf-btn {
+        margin: 10px;
+      }
+
+      .nav-link :hover{
+        color: aqua;
+      }
