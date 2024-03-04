@@ -1,7 +1,10 @@
 *{
     background: #0F1820;
     font-family: monaco;
+}::-webkit-scrollbar{
+  display: none;
 }
+
 
 .hi{
     font-size: 2rem;
